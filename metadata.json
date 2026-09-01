@@ -1,6 +1,0 @@
-{
-  "name": "MineHolde Market",
-  "description": "Minecraft Marketplace — официальный каталог скинов, миров, дополнений, машапов и текстур для Minecraft Bedrock Edition.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
