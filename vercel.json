@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/api/auth/yandex/config", "destination": "/api/yandex-config" },
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/mods/:id", "destination": "/api/product-page?id=:id&section=mods" },
-    { "source": "/skins/:id", "destination": "/api/product-page?id=:id&section=skins" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
