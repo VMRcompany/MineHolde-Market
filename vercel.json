@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/api/auth/yandex/config", "destination": "/api/yandex-config" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/mods/:id", "destination": "/api/product-page?id=:id&section=mods" },
+    { "source": "/resourcepacks/:id", "destination": "/api/product-page?id=:id&section=resourcepacks" },
+    { "source": "/datapacks/:id", "destination": "/api/product-page?id=:id&section=datapacks" },
+    { "source": "/shaders/:id", "destination": "/api/product-page?id=:id&section=shaders" },
+    { "source": "/modpacks/:id", "destination": "/api/product-page?id=:id&section=modpacks" },
+    { "source": "/plugins/:id", "destination": "/api/product-page?id=:id&section=plugins" },
+    { "source": "/servers/:id", "destination": "/api/product-page?id=:id&section=servers" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
