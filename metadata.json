@@ -1,6 +1,0 @@
-{
-  "name": "MineHolde Market",
-  "description": "MineHolde Market — каталог модов, скинов, миров, дополнений и текстур для Minecraft.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
